@@ -9,8 +9,8 @@ const usage = (fRam / tRam) * 100;
 const stats = {
 	OS: platform(),
 	Arch: arch(),
-	TotalRAM: parseInt(tRam),
-	FreeRAM: parseInt(fRam),
+	TotalRAM: `${parseInt(tRam)} MB `,
+	FreeRAM: `${parseInt(fRam)} MB `,
 	Usage: `${usage.toFixed(2)}%`
 }
 console.clear();

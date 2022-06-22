@@ -1,4 +1,5 @@
 const http = require("http");
+const host = "http://localhost";
 const port = 3000;
 const stats = require("./pcRamUsage.js");
 
@@ -8,7 +9,7 @@ http
     if (url === "/stats") {//write a response
       res.end(JSON.stringify(stats, null, 2)); //end the response
     } else {
-      res.write("<h1>Working</h1>"); //write a response
+      res.write("<h1>Seja Bem Vindo!!</h1>"); //write a response
       res.end();
     }
   })
