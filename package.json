@@ -1,0 +1,19 @@
+{
+  "name": "introducao-ao-node.js-com-javascript",
+  "version": "1.0.0",
+  "description": "Criando o package.json e o server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OrlandoSD/introducao-ao-node.js-com-javascript.git"
+  },
+  "author": "OrlandoSD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrlandoSD/introducao-ao-node.js-com-javascript/issues"
+  },
+  "homepage": "https://github.com/OrlandoSD/introducao-ao-node.js-com-javascript#readme"
+}
